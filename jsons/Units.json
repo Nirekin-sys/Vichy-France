@@ -6,7 +6,7 @@
 		"uniqueTo": "Vichy France",
 		"movement": 2,
 		"strength": 50,
-		"cost": 375
+		"cost": 320
 		"requiredTech": "Replaceable Parts",
 		"hurryCostModifier": 20,
 		"upgradesTo": "Infantry",
@@ -22,10 +22,10 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["+20% bonus outside friendly territory"],
 		"promotions": ["March"],
 		"attackSound": "machinegun"
