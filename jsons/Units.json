@@ -2,6 +2,21 @@
 	{
 		"name": "Milice",
 		"unitType": "Melee",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Vichy France",
+		"movement": 2,
+		"strength": 50,
+		"cost": 375
+		"requiredTech": "Replaceable Parts",
+		"hurryCostModifier": 20,
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": ["+10 HP when healing","Penalty vs City 33%"],
+		"attackSound": "shot"
+	},
+		{
+		"name": "Volunteer Legion",
+		"unitType": "Melee",
 		"replaces": "Infantry",
 		"uniqueTo": "Vichy France",
 		"movement": 2,
@@ -11,7 +26,8 @@
 		"hurryCostModifier": 20,
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["+10 HP when healing","Penalty vs City 33%"],
-		"attackSound": "shot"
+		"uniques": ["+20% bonus outside friendly territory"],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
 	}
 ]
