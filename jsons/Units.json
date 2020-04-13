@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Milice",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "Vichy France",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375
+		"requiredTech": "Replaceable Parts",
+		"hurryCostModifier": 20,
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": ["+10 HP when healing","Penalty vs City 33%"],
+		"attackSound": "shot"
+	}
+]
